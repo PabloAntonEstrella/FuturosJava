@@ -1,0 +1,1080 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.6.2 (Oracle Corporation Java 11.0.15)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 657.172ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 171.0233ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.442ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Pablo\Desktop\ejemplo\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 9.9458ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Pablo\Desktop\ejemplo\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 24.9892 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project ejemplo-build from plugins.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(ejemplo-build) took 73.5474ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id ejemplo-build, base: C:\Users\Pablo\Desktop\ejemplo\project, plugins: List(<none>))) took 135.6777ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Pablo\Desktop\ejemplo\project, returning: (ejemplo-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 462.3178ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 14.634ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/C:/Users/Pablo/Desktop/ejemplo/project/, ...) took 656.5648ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 891.6616ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 9.8527ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 113.7188ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 15.992ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 1010.4855ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 235.9381ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 2.9071ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\Pablo\Desktop\ejemplo\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 5539.2529ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.0043ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Pablo\Desktop\ejemplo[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 1.4497ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining [0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttp2Support),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayFilters),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayMinimalJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.test.MediatorWorkaroundPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgent),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.lightbend.sbt.javaagent.JavaAgent)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayAkkaHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayFilters)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayLayoutPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayLogback)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(com.lightbend.sbt.javaagent.JavaAgent), Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))),Set(Atom(com.lightbend.sbt.javaagent.JavaAgentPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayJava,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,play.sbt.PlayWeb,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayService,play.sbt.PlayFilters,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,play.sbt.PlayLogback,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.jse.SbtJsEngine,play.sbt.PlayAkkaHttpServer,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 27.5592 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 193.4469ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Pablo\Desktop\ejemplo, plugins: List(play.sbt.PlayJava))) took 225.9577ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Pablo\Desktop\ejemplo, returning: (root)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 639.9257ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 7.004ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Users/Pablo/Desktop/ejemplo/, ...) took 6187.828ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 6215.4163ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.214ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 32.5638ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 4.6685ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 296.6302ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 102.757ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.0036ms[0m
+[0m[[0m[0minfo[0m] [0m[0m  __              __[0m
+[0m[[0m[0minfo[0m] [0m[0m  \ \     ____   / /____ _ __  __[0m
+[0m[[0m[0minfo[0m] [0m[0m   \ \   / __ \ / // __ `// / / /[0m
+[0m[[0m[0minfo[0m] [0m[0m   / /  / /_/ // // /_/ // /_/ /[0m
+[0m[[0m[0minfo[0m] [0m[0m  /_/  / .___//_/ \__,_/ \__, /[0m
+[0m[[0m[0minfo[0m] [0m[0m      /_/               /____/[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mVersion 2.8.15 running Java 11.0.15[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPlay is run entirely by the community. Please consider contributing and/or donating:[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.playframework.com/sponsors[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:49:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureUser.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:50:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureModel.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:51:1: no suitable method found for ok(java.util.concurrent.Future<java.lang.String>)[0m
+[0m[[0m[31merror[0m] [0m[0m    method play.mvc.Results.ok(play.twirl.api.Content) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; java.util.concurrent.Future<java.lang.String> cannot be converted to play.twirl.api.Content)[0m
+[0m[[0m[31merror[0m] [0m[0m    method play.mvc.Results.ok(java.lang.String) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; java.util.concurrent.Future<java.lang.String> cannot be converted to java.lang.String)[0m
+[0m[[0m[31merror[0m] [0m[0m    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; java.util.concurrent.Future<java.lang.String> cannot be converted to com.fasterxml.jackson.databind.JsonNode)[0m
+[0m[[0m[31merror[0m] [0m[0m    method play.mvc.Results.ok(byte[]) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; java.util.concurrent.Future<java.lang.String> cannot be converted to byte[])[0m
+[0m[[0m[31merror[0m] [0m[0m    method play.mvc.Results.ok(java.io.InputStream) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; java.util.concurrent.Future<java.lang.String> cannot be converted to java.io.InputStream)[0m
+[0m[[0m[31merror[0m] [0m[0m    method play.mvc.Results.ok(java.io.File) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; java.util.concurrent.Future<java.lang.String> cannot be converted to java.io.File)[0m
+[0m[[0m[31merror[0m] [0m[0m    method play.mvc.Results.ok(java.nio.file.Path) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (argument mismatch; java.util.concurrent.Future<java.lang.String> cannot be converted to java.nio.file.Path)[0m
+[0m[[0m[31merror[0m] [0m[0mok[0m
+[0m[[0m[0minfo[0m] [0m[0mSome messages have been simplified; recompile with -Xdiags:verbose to get full output[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:47:1: unreported exception java.lang.InterruptedException; must be caught or declared to be thrown[0m
+[0m[[0m[31merror[0m] [0m[0mdao.infoUser()[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:48:1: unreported exception java.lang.InterruptedException; must be caught or declared to be thrown[0m
+[0m[[0m[31merror[0m] [0m[0mdao.infoModel()[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:51:1: unreported exception java.lang.InterruptedException; must be caught or declared to be thrown[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureUser.get()[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:49:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureUser.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:50:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureModel.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:49:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureUser.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:50:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureModel.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:49:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureUser.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:50:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method asJson()[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class java.lang.String[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureModel.get().asJson[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:9:1: package org.json does not exist[0m
+[0m[[0m[31merror[0m] [0m[0morg.json.JSONObject[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:10:1: package org.json does not exist[0m
+[0m[[0m[31merror[0m] [0m[0morg.json.JSONArray[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:50:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class JSONArray[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJSONArray[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:50:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class JSONArray[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJSONArray[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:52:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class JSONObject[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJSONObject[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:51:1: incompatible types: com.fasterxml.jackson.databind.JsonNode cannot be converted to models.User[0m
+[0m[[0m[31merror[0m] [0m[0mjsonNodeUser[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:52:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:52:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable resultFutureUser[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureUser[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:62:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable resultFutureUser[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mresultFutureUser[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable user[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0muser[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable JsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Set[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mSet[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable JsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Set[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mSet[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable JsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Set[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mSet[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable JsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Set[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mSet[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mArrayNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable JsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mJsonNodeType[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:65:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectNode[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Set[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mSet[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:11:1: package com.fasterxml.jackson does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:59:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:59:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:59:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:59:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mObjectMapper[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:69:1: missing return statement[0m
+[0m[[0m[31merror[0m] [0m[0m{[0m
+[0m[[0m[31merror[0m] [0m[0m    //	JsonNode json = request.body().asJson();[0m
+[0m[[0m[31merror[0m] [0m[0m    	try {[0m
+[0m[[0m[31merror[0m] [0m[0m    	    [0m
+[0m[[0m[31merror[0m] [0m[0m    		List<Future<String>> completableFutures = new ArrayList<>();[0m
+[0m[[0m[31merror[0m] [0m[0m    		completableFutures.add(dao.infoUser());[0m
+[0m[[0m[31merror[0m] [0m[0m    		completableFutures.add(dao.infoModel());[0m
+[0m[[0m[31merror[0m] [0m[0m            [0m
+[0m[[0m[31merror[0m] [0m[0m            CompletableFuture<Void> allFutures = CompletableFuture[0m
+[0m[[0m[31merror[0m] [0m[0m                    .allOf(completableFutures.toArray(new CompletableFuture[completableFutures.size()]));[0m
+[0m[[0m[31merror[0m] [0m[0m            [0m
+[0m[[0m[31merror[0m] [0m[0m            ObjectMapper mapper = new ObjectMapper();[0m
+[0m[[0m[31merror[0m] [0m[0m            List<User> listUser = new ArrayList<>();[0m
+[0m[[0m[31merror[0m] [0m[0m            User readValue = mapper.readValue(completableFutures.get(0).get(), User.class);[0m
+[0m[[0m[31merror[0m] [0m[0m            [0m
+[0m[[0m[31merror[0m] [0m[0m    	}catch(Exception e) { return notFound("NO FUNCIONA");}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m       [0m
+[0m[[0m[31merror[0m] [0m[0m        [0m
+[0m[[0m[31merror[0m] [0m[0m [0m
+[0m[[0m[31merror[0m] [0m[0m     [0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:61:1: incompatible types: inference variable T has incompatible bounds[0m
+[0m[[0m[31merror[0m] [0m[0m    equality constraints: models.User[0m
+[0m[[0m[31merror[0m] [0m[0m    lower bounds: java.util.List<models.User>,java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0mmapper.readValue(completableFutures.get(0).get(), User.class)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:69:1: illegal start of expression[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:69:1: illegal start of expression[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:84:1: illegal start of expression[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:86:1: illegal start of expression[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:84:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable lisAlbums[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mlisAlbums[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:84:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable lisAlbums[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mlisAlbums[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:78:1: 'void' type not allowed here[0m
+[0m[[0m[31merror[0m] [0m[0me.printStackTrace()[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:78:1: ';' expected[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: incompatible types: inference variable T has incompatible bounds[0m
+[0m[[0m[31merror[0m] [0m[0m    equality constraints: models.AlbumsJSON[0m
+[0m[[0m[31merror[0m] [0m[0m    lower bounds: java.util.List<models.AlbumsJSON>,java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0mmapper.readValue(completableFutures.get(1).get(), AlbumsJSON.class)[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: incompatible types: inference variable T has incompatible bounds[0m
+[0m[[0m[31merror[0m] [0m[0m    equality constraints: models.AlbumsJSON[0m
+[0m[[0m[31merror[0m] [0m[0m    lower bounds: java.util.List<models.AlbumsJSON>,java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0mmapper.readValue(completableFutures.get(1).get(), AlbumsJSON.class)[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: incompatible types: inference variable T has incompatible bounds[0m
+[0m[[0m[31merror[0m] [0m[0m    equality constraints: models.AlbumsJSON[0m
+[0m[[0m[31merror[0m] [0m[0m    lower bounds: java.util.List<models.AlbumsJSON>,java.lang.Object[0m
+[0m[[0m[31merror[0m] [0m[0mmapper.readValue(completableFutures.get(1).get(), AlbumsJSON.class)[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:66:1: no suitable method found for readValue(java.lang.String,<anonymous controllers.TypeReference<java.util.List<models.AlbumsJSON>>>)[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(com.fasterxml.jackson.core.JsonParser,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to com.fasterxml.jackson.core.JsonParser))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to com.fasterxml.jackson.core.JsonParser))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.ResolvedType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to com.fasterxml.jackson.core.JsonParser))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to com.fasterxml.jackson.core.JsonParser))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.File,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.File))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.File,com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.File))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.File,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.File))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.net.URL,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.net.URL))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.net.URL,com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.net.URL))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.net.URL,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.net.URL))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.lang.String,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; <anonymous controllers.TypeReference<java.util.List<models.AlbumsJSON>>> cannot be converted to java.lang.Class<T>))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.lang.String,com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; <anonymous controllers.TypeReference<java.util.List<models.AlbumsJSON>>> cannot be converted to com.fasterxml.jackson.core.type.TypeReference<T>))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.lang.String,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; <anonymous controllers.TypeReference<java.util.List<models.AlbumsJSON>>> cannot be converted to com.fasterxml.jackson.databind.JavaType))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.Reader,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.Reader))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.Reader,com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.Reader))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.Reader,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.Reader))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.InputStream,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.InputStream))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.InputStream,com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.InputStream))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.InputStream,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.InputStream))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(byte[],java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to byte[]))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(byte[],int,int,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (actual and formal argument lists differ in length))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(byte[],com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to byte[]))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(byte[],int,int,com.fasterxml.jackson.core.type.TypeReference<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (actual and formal argument lists differ in length))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(byte[],com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to byte[]))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(byte[],int,int,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (actual and formal argument lists differ in length))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.DataInput,java.lang.Class<T>) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.DataInput))[0m
+[0m[[0m[31merror[0m] [0m[0m    method com.fasterxml.jackson.databind.ObjectMapper.<T>readValue(java.io.DataInput,com.fasterxml.jackson.databind.JavaType) is not applicable[0m
+[0m[[0m[31merror[0m] [0m[0m      (cannot infer type-variable(s) T[0m
+[0m[[0m[31merror[0m] [0m[0m        (argument mismatch; java.lang.String cannot be converted to java.io.DataInput))[0m
+[0m[[0m[31merror[0m] [0m[0mmapper.readValue[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java: Recompile with -Xlint:unchecked for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Java sources to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:72:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable i[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mi[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pablo\Desktop\ejemplo\app\controllers\HomeController.java:79:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable i[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mi[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Java source to C:\Users\Pablo\Desktop\ejemplo\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-java-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
